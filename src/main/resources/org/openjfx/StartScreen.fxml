@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane id="stack" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.StartScreenController">
+   <children>
+            <AnchorPane id="anchor" prefHeight="200.0" prefWidth="200.0">
+         <children>
+                  <Button id="login" alignment="CENTER" layoutX="110.0" layoutY="164.0" mnemonicParsing="false" onAction="#goHotel" prefHeight="74.0" prefWidth="132.0" text="Hotel">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="321.0" layoutY="164.0" mnemonicParsing="false" onAction="#goTerminal" prefHeight="74.0" prefWidth="132.0" text="Terminal" />
+         </children></AnchorPane>
+         </children>
+</StackPane>
